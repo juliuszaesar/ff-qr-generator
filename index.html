@@ -37,8 +37,13 @@
   <body>
     <!-- HEADER -->
     <header class="bg-[#231F20] p-4 mb-10">
-      <div class="flex max-w-5xl m-auto">
-        <img id="ff-logo" class="w-9" src="./img/forefront.png" alt="" />
+      <div class="flex max-w-5xl md: max-w-4xl md:pl-10 md:pl-14 m-auto">
+        <img
+          id="ff-logo"
+          class="w-9 rounded"
+          src="./img/forefront.png"
+          alt=""
+        />
         <div
           id="header"
           class="ml-4 text-2xl align-center font-bold text-[#f88c14]"
@@ -52,7 +57,10 @@
       <div
         class="flex flex-col-reverse align-center justify-center m-auto md:max-w-4xl md:flex-row p-10"
       >
-        <div id="content" class="w-full md:w-2/3 mr-24">
+        <div
+          id="content"
+          class="max-w-sm rounded overflow-hidden p-5 w-full shadow-lg md:w-2/3 ml-4 mr-24"
+        >
           <!-- <h1 class="text-3xl font-bold mb-5 md:text-4xl">QR-kodgenerator</h1> -->
           <p class="mb-4">
             Ange en <span class="font-bold">URL</span> nedan för att generera en
@@ -78,7 +86,7 @@
             </select>
 
             <button
-              class="bg-[#231F20] rounded w-full text-[#f88c14] font-bold py-3 px-4 mt-5 hover:bg-black"
+              class="bg-[#231F20] rounded w-full text-[#f88c14] font-bold py-3 px-4 mt-5 hover:bg-black hover:drop-shadow-xl"
               type="submit"
             >
               Generera QR-kod
