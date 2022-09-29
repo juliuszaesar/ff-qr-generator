@@ -1,0 +1,1 @@
+# ff-qr-generator
